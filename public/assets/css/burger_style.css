@@ -1,0 +1,57 @@
+  html {
+      font-family: 'Righteous', cursive, sans-serif;
+      color: #70400d;
+  }
+  
+  body {
+      background-color: #D8880A;
+  }
+  
+  h1 {
+      font-family: 'Monoton', cursive, sans-serif;
+      color: #7d242e;
+  }
+  
+  img {
+      height: 200px;
+      width: 250px;
+  }
+  
+  .img-hor {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+  }
+  
+  h4 {
+      color: #60630a;
+  }
+  
+  button {
+      color: black;
+      background: #7d242e;
+      border-color: #70400d;
+      border-radius: 5px;
+  }
+  
+  button:active {
+      background: #007499;
+  }
+  
+  button:focus {
+      background: #007499;
+  }
+  
+  label {
+      font-size: 1.5em;
+      color: #007499;
+  }
+  
+  #ca {
+      border: 6px double #007499;
+      border-radius: 5px;
+      padding: 5px;
+  }
