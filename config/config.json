@@ -14,12 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "procecess.env": "JAWSDB_URL"
-    // "username": "root",
-    // "password": "bc28a93gg0zp2ujw",
-    // "database": "v03kvr72f34t7i3e",
-    // "host": "dyud5fa2qycz1o3v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    // "dialect": "mysql"
-
+    "username": "root",
+    "password": "bc28a93gg0zp2ujw",
+    "database": "v03kvr72f34t7i3e",
+    "host": "dyud5fa2qycz1o3v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
   }
 }
