@@ -8,6 +8,8 @@ var db = require("../models");
 
 
 // Create all our routes and set up logic within those routes where required.
+
+//get request
 router.get("/", function(req, res) {
   db.Burger.findAll(req.body).then(function(results){
     var hbsObject = {
@@ -18,6 +20,7 @@ router.get("/", function(req, res) {
 
 });
 
+//create new burger route
 router.post("/", function(req, res) {
     db.Burger.create(
         req.body
@@ -26,7 +29,7 @@ router.post("/", function(req, res) {
     });
 });
 
-
+//update burger route
 router.put("/:id", function(req, res) {
     db.Burger.update(
         req.body,
