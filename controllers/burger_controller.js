@@ -6,6 +6,7 @@ var router = express.Router();
 var db = require("../models");
 
 
+
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
   db.Burger.findAll(req.body).then(function(results){
